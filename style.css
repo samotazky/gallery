@@ -1,0 +1,112 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to left top,#00bcd4, #6b46c1, #3363ff);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    gap: 10px;
+}
+
+.slide {
+    height: 80vh;
+    flex: 0.4;
+    border-radius: 40px;
+    overflow: hidden;
+    
+    transition: flex .5s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+
+.text {
+    opacity: 0;
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background: rgba(25, 23, 24, 0.80);
+    height: 150px;
+}
+
+.text h2 {
+    font-size: 20px;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+.active {
+    flex: 5;
+}
+
+.active .text {
+    opacity: 1;
+    transition: opacity 1.8s ease-in-out;
+}
+
+
+.img1 {
+    background-image: url(/img/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-image: url(/img/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background-image: url(/img/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    background-image: url(/img/img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img5 {
+    background-image: url(/img/img5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img6 {
+    background-image: url(/img/img6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img7 {
+    background-image: url(/img/img7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img8 {
+    background-image: url(/img/img8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img9 {
+    background-image: url(/img/img9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
